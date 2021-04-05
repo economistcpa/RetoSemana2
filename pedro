@@ -1,1 +1,27 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario 3</title>
+<link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+<header>
+<h2>Datos de participantes</h2>
+</header>
+<main>
+<section>
+<form>
+<p><label class="texto"><span>NOMBRES</span><br><input type="text" name="nombre" placeholder="Ingresa tus nombres" minlength="6"></label></p>
+<p><label class="texto"><span>APELLIDOS</span><br><input type="text" name="apellido" placeholder="Ingresa tus apellidos" minlength="6"></label></p>
+<p><label class="texto"><span>Correo</span><br><input type="email" name="correo" placeholder="tu@correo.com" required></label></p>
+<p><label><span>Mensaje</span><br><textarea id="mensaje" name="message" cols="69" rows="17" placeholder="escribe tu mensaje"></textarea>
+</label></p>
+<p><label id="posicionboton"><input id="boton" type="submit" value="Enviar"></label></p>
+</form>
+</section>
+</main> 
+</body>
+</html>
